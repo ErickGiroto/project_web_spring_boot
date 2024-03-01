@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.giroloku.curso.entities.User;
 import com.giroloku.curso.services.UserService;
 
-import jakarta.websocket.server.PathParam;
-
 @RestController
 @RequestMapping(value="/users")
 public class UserResource {
